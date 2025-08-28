@@ -1,15 +1,10 @@
-export default function Page() {
+export default function Home() {
   return (
-    <main style={{ display: 'grid', placeItems: 'center', minHeight: '100vh', gap: 16 }}>
-      <h1>Study Focus – $15 test product</h1>
-      <form action="/api/checkout" method="POST">
-        <button
-          type="submit"
-          style={{ padding: '12px 20px', fontWeight: 700, border: '1px solid #222', borderRadius: 8 }}
-        >
-          Buy for $15
-        </button>
-      </form>
+    <main style={{minHeight:"100vh",display:"grid",placeItems:"center"}}>
+      <div>
+        <h1>Study Focus</h1>
+        <p>デプロイ確認用の最小ページ（あとで本体に差し替え）</p>
+      </div>
     </main>
   );
 }
